@@ -1,0 +1,28 @@
+body {
+    background-color: #f8d3e0; /* Fundo rosa claro */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Altura total da tela */
+margin: 0; /* Remove margens padrão */
+}
+.container {
+background-color: #ffb3c1; /* Cor de fundo rosa claro para o quadrado */
+padding: 60px; /* Aumenta o espaçamento interno */
+border-radius: 10px; /* Bordas arredondadas */
+box-shadow: 0 0 10px rgba(255, 105, 180, 0.5), 0 0 20px rgba(255, 105, 180, 0.5); /* Efeito neon */
+width: 800px; /* Largura do quadrado */
+}
+.form-label {
+color: #333; /* Cor das labels em um tom escuro */
+}
+.btn-primary {
+background-color: #ff69b4; /* Cor rosa para o botão */
+border-color: #ff69b4; /* Borda do botão rosa */
+box-shadow: 0 0 5px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.5); /* Efeito neon no botão */
+}
+.btn-primary:hover {
+background-color: #ff1493; /* Cor do botão ao passar o mouse */
+border-color: #ff1493; /* Borda do botão ao passar o mouse */
+box-shadow: 0 0 5px rgba(255, 20, 147, 0.7), 0 0 20px rgba(255, 20, 147, 0.7); /* Efeito neon mais intenso no hover */
+}
